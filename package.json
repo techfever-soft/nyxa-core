@@ -1,0 +1,37 @@
+{
+  "name": "@techfever/nyxa-core",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "private": false,
+  "scripts": {
+    "dev": "tsc && node dist/index.js",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "npx prettier --write ."
+  },
+  "type": "module",
+  "keywords": [
+    "nyxa",
+    "core",
+    "api",
+    "visualizer"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/techfever-soft/nyxa-core"
+  },
+  "author": "D-C-MATE",
+  "license": "MIT",
+  "description": "A core library for Nyxa API Visualizer",
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/uuid": "^10.0.0",
+    "axios": "^1.7.9",
+    "konva": "^9.3.18",
+    "rxjs": "^7.8.1",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.1"
+  }
+}
