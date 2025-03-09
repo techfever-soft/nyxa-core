@@ -4,7 +4,7 @@
  */
 export interface NyxaResponseInterface {
   /** Response identifier */
-  id: string; // UUID de la réponse
+  id: string; 
   /** HTTP response code */
   status: number;
   /** HTTP response message */
@@ -12,7 +12,7 @@ export interface NyxaResponseInterface {
   /** Response time in ms */
   responseTime: number;
   /** Response headers */
-  headers?: { [key: string]: string };
+  headers?: { [key: string]: any };
   /** Response body */
   body?: any;
 }

@@ -12,7 +12,7 @@ export interface NyxaRequestInterface {
   /** Request endpoint */
   endpoint: string;
   /** Request headers */
-  headers: { [key: string]: string };
+  headers: { [key: string]: any };
   /** Request body */
   body: any;
   /** Optional response storage */

@@ -16,7 +16,7 @@ export interface NyxaCreatedConnectionEventInterface {
     /** Endpoint ID */
     endpointId: string;
     /** Element reference */
-    el: HTMLElement;
+    el: HTMLElement | null;
   };
   /** Server endpoint */
   endpoint: {
@@ -27,6 +27,6 @@ export interface NyxaCreatedConnectionEventInterface {
     /** Endpoint ID */
     endpointId: string;
     /** Element reference */
-    el: HTMLElement;
+    el: HTMLElement | null;
   };
 }

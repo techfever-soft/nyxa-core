@@ -20,7 +20,7 @@ export class NyxaConfigManager {
     },
   };
 
-  private constructor() {}
+  constructor() {}
 
   static getInstance(): NyxaConfigManager {
     if (!NyxaConfigManager.instance) {
